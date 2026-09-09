@@ -1,8 +1,8 @@
 <template>
     <form @submit.prevent="submitData">
         <div>
-            <label>Name</label>
-            <input type="text" v-model="enteredName">
+            <label for="name">Name</label>
+            <input id="name" type="text" v-model="enteredName">
         </div>
         <div>
             <label>Phone</label>
