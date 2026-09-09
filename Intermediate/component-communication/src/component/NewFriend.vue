@@ -5,12 +5,12 @@
             <input id="name" type="text" v-model="enteredName">
         </div>
         <div>
-            <label>Phone</label>
-            <input type="tel" v-model="enteredPhone">
+            <label for="phone">Phone</label>
+            <input id="phone" type="tel" v-model="enteredPhone">
         </div>
         <div>
-            <label>Email</label>
-            <input type="email" v-model="enteredEmail">
+            <label for="email">Email</label>
+            <input id="email" type="email" v-model="enteredEmail">
         </div>
         <div>
             <button>Add contact</button>
