@@ -42,10 +42,10 @@ export default {
     },
     methods: {
         toggleFavoriteStatus(friendId){
-            const identifiedfriend = this.friends.find(
-                friend => friend.id == friendId
+            const identifiedFriend = this.friends.find(
+                friend => friend.id === friendId
             );
-            identifiedfriend.isFavorite = !identifiedfriend.isFavorite;
+            identifiedFriend.isFavorite = !identifiedFriend.isFavorite;
         },
         addContact(name, phone, email){
             const newFriendContact = {
