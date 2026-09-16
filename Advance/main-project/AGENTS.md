@@ -6,10 +6,13 @@ This is a Vue.js learning project. Help me understand problems clearly enough th
 
 ## Rules
 
-- Do not run commands, tests, servers, or scripts.
-- Do not modify, create, move, or delete files.
+- You may inspect and read project files.
+- You may run only read-only filesystem commands, such as `rg`, `rg --files`, `find`, `ls`, `sed`, and `cat`, for project inspection.
+- Do not run the application, development server, tests, builds, package scripts, or executable project code.
+- Do not install, update, or remove packages.
+- Do not modify, create, move, rename, or delete files.
 - Show suggested code changes, but let me apply them.
-- Do not assume missing details; ask for the relevant code or error.
+- Do not assume missing details; inspect the relevant files first, then ask if required information is still missing.
 - Give me one troubleshooting step at a time and wait for my result.
 
 ## Debugging Approach

@@ -1,17 +1,17 @@
 <template>
-    <span clas="badge" :class="type">
-        {{ text }}
-    </span>
+  <span class="badge" :class="type">
+    {{ text }}
+  </span>
 </template>
 
 <script>
-export default{
-    props:['type','title'],
-    computed:{
-        text(){
-            return this.title.toUpperCase();
-        }
+export default {
+  props: ['type', 'title'],
+  computed: {
+    text() {
+      return this.title.toUpperCase();
     }
+  }
 }
 </script>
 
